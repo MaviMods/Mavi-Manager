@@ -24,26 +24,26 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from FallenRobot import TIGERS, WOLVES, dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import (
+from MaviManager import TIGERS, WOLVES, dispatcher
+from MaviManager.modules.disable import DisableAbleCommandHandler
+from MaviManager.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from FallenRobot.modules.helper_funcs.extraction import (
+from MaviManager.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from FallenRobot.modules.helper_funcs.filters import CustomFilters
-from FallenRobot.modules.helper_funcs.misc import split_message
-from FallenRobot.modules.helper_funcs.string_handling import split_quotes
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.sql import warns_sql as sql
-from FallenRobot.modules.sql.approve_sql import is_approved
+from MaviManager.modules.helper_funcs.filters import CustomFilters
+from MaviManager.modules.helper_funcs.misc import split_message
+from MaviManager.modules.helper_funcs.string_handling import split_quotes
+from MaviManager.modules.log_channel import loggable
+from MaviManager.modules.sql import warns_sql as sql
+from MaviManager.modules.sql.approve_sql import is_approved
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"
