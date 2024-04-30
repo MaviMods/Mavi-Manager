@@ -8,9 +8,9 @@ from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler
 
-import FallenRobot
-from FallenRobot import dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import dev_plus
+import MaviManager
+from MaviManager import dispatcher
+from MaviManager.modules.helper_funcs.chat_status import dev_plus
 
 
 @dev_plus
