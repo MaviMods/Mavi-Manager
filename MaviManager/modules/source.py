@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from telegram import __version__ as o
 from telethon import __version__ as s
 
-from FallenRobot import BOT_NAME, BOT_USERNAME, OWNER_ID, START_IMG, pbot
+from MaviManager import BOT_NAME, BOT_USERNAME, OWNER_ID, START_IMG, pbot
 
 
 @pbot.on_message(filters.command(["repo", "source"]))
