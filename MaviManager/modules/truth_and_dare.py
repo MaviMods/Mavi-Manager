@@ -2,8 +2,8 @@ import requests
 from telegram import Update
 from telegram.ext import CallbackContext
 
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from MaviManager import dispatcher
+from MaviManager.modules.disable import DisableAbleCommandHandler
 
 
 def truth(update: Update, context: CallbackContext):
