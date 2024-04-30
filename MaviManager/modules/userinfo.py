@@ -17,8 +17,8 @@ from telethon import events
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.types import ChannelParticipantsAdmins
 
-import FallenRobot.modules.sql.userinfo_sql as sql
-from FallenRobot import (
+import MaviManager.modules.sql.userinfo_sql as sql
+from MaviManager import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -29,12 +29,12 @@ from FallenRobot import (
     dispatcher,
     telethn,
 )
-from FallenRobot.__main__ import STATS, TOKEN, USER_INFO
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import sudo_plus
-from FallenRobot.modules.helper_funcs.extraction import extract_user
-from FallenRobot.modules.sql.global_bans_sql import is_user_gbanned
-from FallenRobot.modules.sql.users_sql import get_user_num_chats
+from MaviManager.__main__ import STATS, TOKEN, USER_INFO
+from MaviManager.modules.disable import DisableAbleCommandHandler
+from MaviManager.modules.helper_funcs.chat_status import sudo_plus
+from MaviManager.modules.helper_funcs.extraction import extract_user
+from MaviManager.modules.sql.global_bans_sql import is_user_gbanned
+from MaviManager.modules.sql.users_sql import get_user_num_chats
 
 
 def no_by_per(totalhp, percentage):
