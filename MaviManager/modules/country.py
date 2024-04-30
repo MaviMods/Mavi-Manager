@@ -1,8 +1,8 @@
 import flag
 from countryinfo import CountryInfo
 
-from FallenRobot import BOT_NAME, telethn
-from FallenRobot.events import register
+from MaviManager import BOT_NAME, telethn
+from MaviManager.events import register
 
 
 @register(pattern="^/country (.*)")
