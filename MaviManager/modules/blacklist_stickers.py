@@ -5,16 +5,16 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import FallenRobot.modules.sql.blsticker_sql as sql
-from FallenRobot import LOGGER, dispatcher
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.alternate import send_message
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from FallenRobot.modules.helper_funcs.misc import split_message
-from FallenRobot.modules.helper_funcs.string_handling import extract_time
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.warns import warn
+import MaviManager.modules.sql.blsticker_sql as sql
+from MaviManager import LOGGER, dispatcher
+from MaviManager.modules.connection import connected
+from MaviManager.modules.disable import DisableAbleCommandHandler
+from MaviManager.modules.helper_funcs.alternate import send_message
+from MaviManager.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from MaviManager.modules.helper_funcs.misc import split_message
+from MaviManager.modules.helper_funcs.string_handling import extract_time
+from MaviManager.modules.log_channel import loggable
+from MaviManager.modules.warns import warn
 
 
 def blackliststicker(update: Update, context: CallbackContext):
