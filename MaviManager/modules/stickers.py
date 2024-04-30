@@ -18,8 +18,8 @@ from telegram import (
 from telegram.ext import CallbackContext
 from telegram.utils.helpers import mention_html
 
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from MaviManager import dispatcher
+from MaviManager.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
