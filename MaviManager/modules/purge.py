@@ -2,8 +2,8 @@ import time
 
 from telethon import events
 
-from FallenRobot import telethn
-from FallenRobot.modules.helper_funcs.telethn.chatstatus import (
+from MaviManager import telethn
+from MaviManager.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
