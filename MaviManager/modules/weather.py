@@ -3,8 +3,8 @@ import io
 import aiohttp
 from telethon.tl import functions, types
 
-from FallenRobot import telethn as tbot
-from FallenRobot.events import register
+from MaviManager import telethn as tbot
+from MaviManager.events import register
 
 
 async def is_register_admin(chat, user):
