@@ -2,8 +2,8 @@ from gpytranslate import SyncTranslator
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext
 
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from MaviManager import dispatcher
+from MaviManager.modules.disable import DisableAbleCommandHandler
 
 trans = SyncTranslator()
 
