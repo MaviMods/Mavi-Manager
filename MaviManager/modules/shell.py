@@ -3,8 +3,8 @@ import subprocess
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 
-from FallenRobot import LOGGER, dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import dev_plus
+from MaviManager import LOGGER, dispatcher
+from MaviManager.modules.helper_funcs.chat_status import dev_plus
 
 
 @dev_plus
