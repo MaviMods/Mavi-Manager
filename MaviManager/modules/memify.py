@@ -3,8 +3,8 @@ import textwrap
 
 from PIL import Image, ImageDraw, ImageFont
 
-from FallenRobot import telethn as bot
-from FallenRobot.events import register
+from MaviManager import telethn as bot
+from MaviManager.events import register
 
 
 @register(pattern="^/mmf ?(.*)")
@@ -53,7 +53,7 @@ async def drawText(image_path, text):
         fnt = "ariel.ttf"
 
     else:
-        fnt = "./FallenRobot/resources/default.ttf"
+        fnt = "./MaviManager/resources/default.ttf"
 
     m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 
