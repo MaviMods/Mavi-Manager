@@ -4,8 +4,8 @@ import importlib
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 
-from FallenRobot import dispatcher, telethn
-from FallenRobot.__main__ import (
+from MaviManager import dispatcher, telethn
+from MaviManager.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -16,7 +16,7 @@ from FallenRobot.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from FallenRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from MaviManager.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 
 
 @dev_plus
