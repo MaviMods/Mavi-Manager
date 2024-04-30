@@ -22,9 +22,9 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-import FallenRobot
-import FallenRobot.modules.sql.welcome_sql as sql
-from FallenRobot import (
+import MaviManager
+import MaviManager.modules.sql.welcome_sql as sql
+from MaviManager import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -35,18 +35,18 @@ from FallenRobot import (
     WOLVES,
     dispatcher,
 )
-from FallenRobot.modules.helper_funcs.chat_status import (
+from MaviManager.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from FallenRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from FallenRobot.modules.helper_funcs.msg_types import get_welcome_type
-from FallenRobot.modules.helper_funcs.string_handling import (
+from MaviManager.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from MaviManager.modules.helper_funcs.msg_types import get_welcome_type
+from MaviManager.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.sql.global_bans_sql import is_user_gbanned
+from MaviManager.modules.log_channel import loggable
+from MaviManager.modules.sql.global_bans_sql import is_user_gbanned
 
 VALID_WELCOME_FORMATTERS = [
     "first",
