@@ -3,8 +3,8 @@ import threading
 
 from sqlalchemy import BigInteger, Boolean, Column, String, UnicodeText, distinct, func
 
-from FallenRobot.modules.helper_funcs.msg_types import Types
-from FallenRobot.modules.sql import BASE, SESSION
+from MaviManager.modules.helper_funcs.msg_types import Types
+from MaviManager.modules.sql import BASE, SESSION
 
 
 class Notes(BASE):
