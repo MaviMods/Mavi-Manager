@@ -12,19 +12,19 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from FallenRobot import TIGERS, WOLVES, dispatcher
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.helper_funcs.alternate import send_message
-from FallenRobot.modules.helper_funcs.chat_status import (
+from MaviManager import TIGERS, WOLVES, dispatcher
+from MaviManager.modules.connection import connected
+from MaviManager.modules.helper_funcs.alternate import send_message
+from MaviManager.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from FallenRobot.modules.helper_funcs.string_handling import extract_time
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.sql import antiflood_sql as sql
-from FallenRobot.modules.sql.approve_sql import is_approved
+from MaviManager.modules.helper_funcs.string_handling import extract_time
+from MaviManager.modules.log_channel import loggable
+from MaviManager.modules.sql import antiflood_sql as sql
+from MaviManager.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 
