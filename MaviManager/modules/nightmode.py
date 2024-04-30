@@ -2,10 +2,10 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from telethon import functions, types
 from telethon.tl.types import ChatBannedRights
 
-from FallenRobot import BOT_NAME
-from FallenRobot import telethn as tbot
-from FallenRobot.events import register
-from FallenRobot.modules.sql.night_mode_sql import (
+from MaviManager import BOT_NAME
+from MaviManager import telethn as tbot
+from MaviManager.events import register
+from MaviManager.modules.sql.night_mode_sql import (
     add_nightmode,
     get_all_chat_id,
     is_nightmode_indb,
