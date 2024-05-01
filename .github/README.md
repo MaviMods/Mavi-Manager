@@ -12,7 +12,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [Mavi Manager](https
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
-<a href="https://github.com/MaviMods/Mavi-Manager/star"><img src="https://img.shields.io/github/stars/MaviMods/Mavi-Manager?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/MaviMods/Mavi-Manager/stargazers"><img src="https://img.shields.io/github/stars/MaviMods/Mavi-Manager?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/MaviMods/Mavi-Manager/network/members"> <img src="https://img.shields.io/github/forks/MaviMods/Mavi-Manager?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/MaviMods/Mavi-Manager/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
